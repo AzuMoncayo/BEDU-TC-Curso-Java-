@@ -1,14 +1,16 @@
 import java.util.*;
 
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         List<String> muestras = new ArrayList<>();
         muestras.add("M1");
         muestras.add("M1");
         muestras.add("M3");
         muestras.add("M6");
         muestras.add("M5");
-
 
         for(String m : muestras){
             System.out.println("* LIST: "+m);
@@ -36,5 +38,4 @@ public class Main {
         String codigoBuscado = "M-003";
         System.out.println("\n🔍 Descripción de la muestra " + codigoBuscado + ": " + asociaID.get(codigoBuscado));
     }
-
 }
