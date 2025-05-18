@@ -1,6 +1,6 @@
 
 
-public record DeclaracionImpuestos(String nombreContribuyente, double monto) {
+public record DeclaracionImpuestos(String rfc, double monto) {
 
 
 }

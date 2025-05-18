@@ -5,7 +5,7 @@ public class Main {
 
         //Factura f1 = new Factura("F001", "Dona Perez", 15000);
         Factura f1 = new Factura("F001", "Santi Roman", 50090);
-        Factura f2 = new Factura("F001", "Santi Roman", 50090);
+        Factura f2 = new Factura("F001", "comercial ABC", 50090);
 
         f1.toString();
         f2.toString();

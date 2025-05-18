@@ -6,6 +6,6 @@ public class Operador {
     }
 
     public void reportarse(){
-        System.out.println("Operador"+ nombre +"reportándose");
+        System.out.println("👩‍✈️ Operador "+ nombre +" reportándose");
     }
 }

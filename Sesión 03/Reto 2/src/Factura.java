@@ -22,4 +22,19 @@ public class Factura {
     public String getDescripcion(){
         return descripcion;
     }
+
+    public String mostrarInformacion() {
+        StringBuilder resumen = new StringBuilder();
+        resumen.append("📄 Factura generada:\n");
+        resumen.append("Descripción: ").append(descripcion).append("\n");
+        resumen.append("Monto: $").append(monto).append("\n");
+
+        if (rfc.isPresent()) {
+            resumen.append("RFC: ").append(rfc.get()).append("\n");
+        } else {
+            resumen.append("RFC: [No proporcionado]\n");
+        }
+
+        return resumen.toString();
+    }
 }

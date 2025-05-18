@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="78cd43fc-ca7a-49e1-bdd7-d8cfdcb28c84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Reto1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reto1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reto1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reto1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reto1/Reto1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Reto1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 01/Reto 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 01/Reto 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 02/Reto 2/out/production/Reto 2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 02/Reto 2/out/production/Reto 2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 03/Reto 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 03/Reto 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 03/Reto 1/src/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 03/Reto 1/src/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 03/Reto 2/src/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 03/Reto 2/src/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 03/Reto 2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 03/Reto 2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 04/Reto 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 04/Reto 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/CuentaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/CuentaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/DeclaracionImpuestos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/DeclaracionImpuestos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 04/Reto 2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 1/src/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 1/src/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/Autenticable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/Autenticable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/MetodoPago.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/MetodoPago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoEfectivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoEfectivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoTarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoTarjeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoTransferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sesión 05/Reto 2/src/PagoTransferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2xBYrmAkfAUBRhTCxw7kT92tsdl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,10 +45,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Users/monca/Desktop/Programas TECNOLOchicas/Sesión 06/Reto 2",
     "onboarding.tips.debug.path": "E:/Users/monca/Desktop/Programas TECNOLOchicas/Sesión 06/Reto 1/src/Main.java"
   }
 }]]></component>
@@ -51,7 +70,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>39</line>
+          <line>42</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

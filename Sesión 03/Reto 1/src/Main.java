@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        Vuelo v1 = new Vuelo("XYZ008", "Corea del Sur", "12:30");
 
         int eleccion;
 
@@ -25,7 +25,6 @@ public class Main {
             switch (eleccion) {
                 case 1 -> {
                     System.out.println("📝 Haz elegido reservar un vuelo");
-                    Vuelo v1 = new Vuelo("XYZ008", "Corea del Sur", "12:30");
                     boolean reservar = Vuelo.reservarAsiento("Dona", "XY90");
                     if(reservar==true){
                         System.out.println("Vuelo reservado exitosamente!");
@@ -37,14 +36,17 @@ public class Main {
 
                 }
 
-                case 2 ->
+                case 2 ->{
                         System.out.println("\uD83D\uDCDD Haz elegido consultar el itinerario\"");
-                //System.out.println("Pasajero: "+p1.getNombre());
-                //System.out.println("Pasaporte: "+p1.getPasaporte());
+                        v1.consultarVuelo();
+                }
 
 
-                case 3 ->
+                case 3 ->{
                         System.out.println("\uD83D\uDCDD Haz elegido cancelar un vuelo\"");
+                        v1.cancelarVuelo();
+                        System.out.println("❌ Cancelando reserva...");
+                }
             }
 
         }while(eleccion!=4);

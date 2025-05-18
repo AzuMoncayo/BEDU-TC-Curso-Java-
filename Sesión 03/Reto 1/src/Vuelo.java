@@ -31,8 +31,11 @@ public class Vuelo {
         asientoReservado=null;
     }
 
-    public String consultarVuelo(){
-        return codigo;
+    public void consultarVuelo(){
+        System.out.println("✈\uFE0F Itinerario del vuelo:");
+        System.out.println("Código: "+ codigo);
+        System.out.println("Destino: "+ destino);
+        System.out.println("Hora salida: "+ horaSalida);
     }
 }
 

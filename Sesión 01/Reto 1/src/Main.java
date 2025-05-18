@@ -11,16 +11,15 @@ public class Main {
         System.out.println("Ingresa los datos de tu paciente: ");
         System.out.print("Nombre-> ");
         String nombre = sc.nextLine();
-        System.out.println();
         System.out.print("Edad-> ");
         int edad = sc.nextInt();
-        System.out.println();
+        sc.nextLine();
         System.out.print("Expediente-> ");
         String expediente = sc.nextLine();
 
         Paciente p = new Paciente(nombre, edad, expediente);
 
-        System.out.println();
+        System.out.println("\n");
         System.out.println("Resumen de datos");
         p.mostrarInformacion();
 
